@@ -24,5 +24,5 @@ if (isset($_GET['id']) && isset($_GET['approve'])) {
 }
 
 $conn->close();
-header("Location: list_leaves.php");  // กลับไปที่หน้ารายการหลังอัปเดตเสร็จ
+header("Location: list_leave.php");  // กลับไปที่หน้ารายการหลังอัปเดตเสร็จ
 ?>

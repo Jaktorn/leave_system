@@ -21,5 +21,5 @@ if (isset($_GET['id'])) {
 }
 
 $conn->close();
-header("Location: list_leaves.php");  // กลับไปที่หน้ารายการหลังลบเสร็จ
+header("Location: list_leave.php");  // กลับไปที่หน้ารายการหลังลบเสร็จ
 ?>
